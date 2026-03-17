@@ -1,0 +1,18 @@
+/* ── Reset & Base ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    /* Zmień kolory tutaj */
+    --bg:      #ffffff;
+    --text:    #1a1a1a;
+    --primary: #4f8ef7;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, sans-serif;
+    padding: 2rem;
+}
+
+/* Tutaj dodajesz swoje style */
