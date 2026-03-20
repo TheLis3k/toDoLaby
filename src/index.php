@@ -1,8 +1,12 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/config/db.php';
-// include_once 'mergeSort.php';
-include_once 'sito.php';
+// include_once __DIR__ . '/assignments/mergeSort.php';
+// include_once __DIR__ . '/assignments/sito.php';
+include_once __DIR__ . '/assignments/reverseIndex.php';
+
+
+
 // ─────────────────────────────────────────────
 // Tutaj piszesz swój kod PHP
 // Przykłady użycia baz danych są w config/db.php
