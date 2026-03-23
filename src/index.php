@@ -3,7 +3,17 @@ require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/config/db.php';
 // include_once __DIR__ . '/assignments/mergeSort.php';
 // include_once __DIR__ . '/assignments/sito.php';
-include_once __DIR__ . '/assignments/reverseIndex.php';
+// include_once __DIR__ . '/assignments/reverseIndex.php';
+// include_once __DIR__ . '/assignments/lifo.php';
+// include_once __DIR__ . '/assignments/pivot.php';
+// include_once __DIR__ . '/assignments/salek.php';
+// include_once __DIR__ . '/assignments/pearson.php';
+// include_once __DIR__ . '/assignments/etl.php';
+
+
+
+
+
 
 
 
@@ -15,14 +25,5 @@ include_once __DIR__ . '/assignments/reverseIndex.php';
 ?>
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja strona</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-
-
-</body>
+    <?php include_once __DIR__ . '/assignments/taskTracker.php'; ?>
 </html>
